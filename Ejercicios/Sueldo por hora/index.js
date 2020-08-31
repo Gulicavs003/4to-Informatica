@@ -37,9 +37,9 @@ function calcular() {
     }
     alert("El gasto total de la empresa es $ "  + total);
 
-    if (e > 1)
+    if (e > 1 || e === 1)
         alert("La empresa paga a " + e + " empleados las horas extras")
-    else {
+    else if (e = 1 ) {
         alert("La empresa no tendrá que abonar horas extras")
     }
 
