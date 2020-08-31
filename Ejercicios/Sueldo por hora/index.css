@@ -16,7 +16,7 @@ body{
   }
   
   .card {
-    width: 80%;
+    width: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: space-around;
@@ -28,26 +28,9 @@ body{
     
   }
 
-  #numeroCargado{
-    width: 27%;
-    background: silver;
-   border: 1px solid #393939;
-   border-radius: 5px 5px 5px 5px;
-   color: #318aac;
-   font-size: 12px;
-   padding: 5px;
-   
-    
-  }
+  
 
-  p{
-color: wheat;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
 
-span {
-    color: #318aac;
-}
 
 
 .enviar  {
@@ -83,7 +66,8 @@ span {
 
 .btn  {
 position: relative;
-top: 20px;
+display: flex;
+justify-content: center;
 color: #fff !important;
   
 padding: 0.5em 1.2em;
