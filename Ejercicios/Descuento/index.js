@@ -1,6 +1,6 @@
 descuento();
 
-function descuento ( ){ 
+function descuento (){ 
 document.getElementById('enviar').addEventListener('click', () =>{
     let m = document.getElementById('numero').value;
     validateForm();
@@ -25,3 +25,4 @@ function validateForm()
         alert("Caracter inválido. Solo se permiten números")
         }
 }
+
